@@ -7,56 +7,56 @@
 
 @font-face {
   font-family: $ubuntu;
-  src: url("/src/assets/fonts") format("woff2"),
-    url("/src/assets/fonts.woff") format("woff");
+  src: url("assets/fonts/Ubuntu-Light.woff2") format("woff2"),
+    url("assets/fonts/Ubuntu-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: $ubuntu;
-  src: url("/src/assets/fontsUbuntu-Medium.woff2") format("woff2"),
-    url("/src/assets/fontsUbuntu-Medium.woff") format("woff");
+  src: url("assets/fonts/Ubuntu-Medium.woff2") format("woff2"),
+    url("assets/fonts/Ubuntu-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: $ubuntu;
-  src: url("/src/assets/fontsUbuntu-Regular.woff2") format("woff2"),
-    url("/src/assets/fontsUbuntu-Regular.woff") format("woff");
+  src: url("assets/fonts/Ubuntu-Regular.woff2") format("woff2"),
+    url("assets/fonts/Ubuntu-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $ubuntu;
-  src: url("/src/assets/fontsUbuntu-Bold.woff2") format("woff2"),
-    url("/src/assets/fontsUbuntu-Bold.woff") format("woff");
+  src: url("assets/fonts/Ubuntu-Bold.woff2") format("woff2"),
+    url("assets/fonts/Ubuntu-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: $sen;
-  src: url("/src/assets/fontsSen-Regular.woff2") format("woff2"),
-    url("/src/assets/fontsSen-Regular.woff") format("woff");
+  src: url("assets/fonts/Sen-Regular.woff") format("woff2"),
+    url("assets/fonts/Sen-Regular.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $sen;
-  src: url("/src/assets/fontsSen-Bold.woff2") format("woff2"),
-    url("/src/assets/fontsSen-Bold.woff") format("woff");
+  src: url("assets/fonts/Sen-Bold.woff2") format("woff2"),
+    url("assets/fonts/Sen-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: $sen;
-  src: url("/src/assets/fontsSen-ExtraBold.woff2") format("woff2"),
-    url("/src/assets/fontsSen-ExtraBold.woff") format("woff");
+  src: url("assets/fonts/Sen-ExtraBold.woff2") format("woff2"),
+    url("assets/fonts/Sen-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }

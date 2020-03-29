@@ -1,10 +1,15 @@
 <template>
-  <component class="c-icon" :is="`${name}-icon`" />
+  <component
+    fill="currentColor"
+    color="currentColor"
+    class="c-icon"
+    :is="`${name}-icon`"
+  />
 </template>
 
 <script>
 export default {
-  name: "Icon",
+  name: 'Icon',
   props: {
     name: {
       type: String,

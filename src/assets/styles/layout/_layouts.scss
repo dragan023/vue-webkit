@@ -18,3 +18,7 @@
 .l-main {
   flex: 1;
 }
+
+.l-aside__head {
+  @include flex-align-end;
+}

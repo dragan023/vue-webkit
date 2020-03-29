@@ -1,19 +1,17 @@
 <template>
   <div class="l-content">
     <aside class="l-sidebar">
-      <slot name="sidebar">
-        <h1>Vue webkit</h1>
-      </slot>
+      <slot name="aside"></slot>
     </aside>
     <main class="l-main">
-      <slot name="main"> </slot>
+      <slot></slot>
     </main>
   </div>
 </template>
 
 <script>
 export default {
-  name: "MainLayout"
+  name: 'MainLayout'
 };
 </script>
 
