@@ -1,0 +1,20 @@
+/**
+ * Layouts
+ *
+ */
+
+.l-content {
+  display: flex;
+  flex: 1;
+  background-color: $color-dark-blue;
+}
+
+.l-sidebar {
+  width: 15rem;
+  background-color: $color-dark;
+  padding: 1rem;
+}
+
+.l-main {
+  flex: 1;
+}

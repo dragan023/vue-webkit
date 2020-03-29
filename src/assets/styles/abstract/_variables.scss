@@ -1,0 +1,29 @@
+/* Fonts */
+$ubuntu: "Ubuntu";
+$sen: "Sen";
+
+$font-size-body: 10px;
+$font-size-xxxl: 1rem * 2.75;
+$font-size-xxl: 1rem * 2.5;
+$font-size-xl: 1rem * 2;
+$font-size-lg: 1rem * 1.5;
+$font-size-md: 1rem * 1.25;
+$font-size-sm: 1rem * 0.75;
+$font-size-xs: 1rem * 0.625;
+
+/* Colors */
+
+$color-white: #ffffff;
+$color-black: #000000;
+$color-transparent: rgba(0, 0, 0, 0);
+$color-dark-blue: #123;
+$color-dark: #0d141b;
+
+/* Screens */
+
+$screen-full-hd: 120rem; // 1920px
+$screen-tablet-landscape: 64rem; // 1024px
+$screen-tablet-portrait: 48rem; // 768px
+$screen-mobile-landscape: 46.25rem; // 740px
+$screen-mobile-portrait: 23.4375rem; // 375px
+$screen-mobile-sm-portrait: 20rem; // 320px

@@ -1,0 +1,43 @@
+/**
+ * Base styles
+ *
+ */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: $font-size-md;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: none;
+  color: $color-white;
+}
+
+html,
+body,
+#app {
+  display: flex;
+  flex-direction: column;
+  font-family: $ubuntu;
+}
+
+body,
+#app {
+  flex: 1;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+}
+
+body {
+  overflow-y: auto;
+}

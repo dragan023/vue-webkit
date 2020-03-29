@@ -1,0 +1,62 @@
+/**
+ * Typography setup
+ *
+ */
+
+// @font-face rules goes here
+
+@font-face {
+  font-family: $ubuntu;
+  src: url("/src/assets/fonts") format("woff2"),
+    url("/src/assets/fonts.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $ubuntu;
+  src: url("/src/assets/fontsUbuntu-Medium.woff2") format("woff2"),
+    url("/src/assets/fontsUbuntu-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $ubuntu;
+  src: url("/src/assets/fontsUbuntu-Regular.woff2") format("woff2"),
+    url("/src/assets/fontsUbuntu-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $ubuntu;
+  src: url("/src/assets/fontsUbuntu-Bold.woff2") format("woff2"),
+    url("/src/assets/fontsUbuntu-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $sen;
+  src: url("/src/assets/fontsSen-Regular.woff2") format("woff2"),
+    url("/src/assets/fontsSen-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $sen;
+  src: url("/src/assets/fontsSen-Bold.woff2") format("woff2"),
+    url("/src/assets/fontsSen-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $sen;
+  src: url("/src/assets/fontsSen-ExtraBold.woff2") format("woff2"),
+    url("/src/assets/fontsSen-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
